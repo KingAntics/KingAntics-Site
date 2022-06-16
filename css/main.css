@@ -2847,12 +2847,12 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials .slick-prev {
     left: -130px;
-    background-image: url("../images/left-arrow.png");
+    background-image: url("..img/images/left-arrow.png");
 }
 
 .clients-testimonials .testimonials .slick-next {
     right: -130px;
-    background-image: url("../images/right-arrow.png");
+    background-image: url("..img/images/right-arrow.png");
 }
 
 .clients-testimonials .testimonials .slick-dots {
