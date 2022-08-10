@@ -12,11 +12,49 @@
 </head>
 <body>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+    .scroll-left {
+     height: 50px;
+     overflow: hidden;
+     position: relative;
+     background: red;
+     color: black;
+     border: 1px solid black;
+    }
+    .scroll-left p {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 50px;
+     text-align: center;
+     text-shadow: black;
+     font-weight: 900;
+     font-size: 900;
+     /* Starting position */
+     transform:translateX(100%);
+     /* Apply animation to this element */
+     animation: scroll-left 20s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @keyframes scroll-left {
+     0%   {
+     transform: translateX(100%); 		
+     }
+     100% {
+     transform: translateX(-100%); 
+     }
+    }
+    </style>
+    
+    <div class="scroll-left">
+    <p>Schedule Is Now Updated For The Week of (7 August 2022) to (13 August 2022) </p>
+    </div>
 
 <div class="idance">
     <div class="schedule content-block">
         <div class="container">
-            <h2 data-aos="zoom-in-up" class="aos-init aos-animate">Stream Schedule (31 July 2022 - 6 August 2022)</h2>
+            <h2 data-aos="zoom-in-up" class="aos-init aos-animate">Stream Schedule</h2>
         
             <div class="timetable">
         
