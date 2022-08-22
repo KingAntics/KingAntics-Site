@@ -5,6 +5,7 @@
     <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
     <!--  All snippets are MIT license http://bootdey.com/license -->
     <title>Thursday</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +49,7 @@
     </style>
     
     <div class="scroll-left">
-    <p>Schedule Is Now Updated For The Week of (7 August 2022) to (13 August 2022) </p>
+    <p>Schedule Is Now Updated For The Week of (21 August 2022) to (27 August 2022) </p>
     </div>
 
 <div class="idance">
@@ -80,7 +81,7 @@
                           <img src="imagesschedule/love-emote.png" alt="Bulbasaur Love">
                         </div>
                         <div class="timetable-item-main">
-                          <div class="timetable-item-time">2:30pm (PDT)</div>
+                          <div class="timetable-item-time">2:00pm (PDT)</div>
                           <div class="timetable-item-name">Normal Stream</div>
                           <a href="https://www.twitch.tv/kingantics" target="_blank" class="btn btn-primary btn-book">Click To Watch Live</a>
                           <div class="timetable-item-like">
@@ -93,11 +94,24 @@
                     </div>
                   </div>
                 </div>
+                <button class="build">Click for a Surprise</button>
               </div>
             </div>
           </div>
       </div>
   </div>
+
+  <script>
+    const jsConfetti = new JSConfetti()
+
+    jsConfetti.addConfetti()
+    function confettiFY(){
+        jsConfetti.addConfetti({
+   emojis: ['👑', '⚡️', '🪅', '🥳', '🎉', '🎊'],
+});
+    }
+    document.querySelector('.build').addEventListener('click', confettiFY)
+  </script>
 
 <style type="text/css">
 body{margin-top:20px;}
