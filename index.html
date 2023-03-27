@@ -1,538 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>KingAntics</title>
-  <meta content="The Official KingAntics Website, Click on this why don't you" name="description">
-  <meta content="" name="keywords">
+    <title>KingAntics</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: DevFolio - v4.10.0
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
+
+
+    <!-- load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">  
+    <link rel="stylesheet" href="css/bootstrap.min.css">                            
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");</script>
+    
 </head>
 
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="img/world-2.mp4" type="video/mp4">
+      </video>
+    <div id="tm-bg"></div>
+    <div id="tm-wrap">
+        <div class="tm-main-content">
+            <div class="container tm-site-header-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
+                        <div class="tm-site-header">
+                            <h1 class="mb-4">KingAntics</h1>
+                            <img src="img/underline.png" class="img-fluid mb-4">
+                            <p>Just another random person <br> on the internet</p>        
+                        </div>                        
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="content">
+                            <div class="grid">
+                                <div class="grid__item" id="home-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-home fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Welcome</span>
+                                            <div class="product__bg"></div>        
+                                        </div>                                    
+                                        <div class="product__description">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title">Welcome to My Website</h2>        
+                                                </div>
+                                            </div>                                        
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <img src="img/flare-double-mirror.png" class="img-fluid mb-3">
+                                                    <p>I am just a random guy who streams to be less bored and talk to other people. I'm always down to have a good chat with others.</p>
+                                                    <p>I also love pokemon hence the bulbasaur profile picture.</p>    
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <p>I enjoy coding because its fun looking at all the things you can create with just letters and numbers.</p>
+                                                    <p>I self taught everything I know because I genuiely enjoy web developing. I started coding 3 years ago.</p>
+                                                    <img src="img/flare-double.png" class="img-fluid">
+                                                </div>                                        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+                                <div class="grid__item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-users fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">My Socials</span>
+                                            <div class="product__bg"></div>            
+                                        </div>                                     
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">My Socials</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row tm-reverse-sm">
+                                                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                                        <p class="mb-4">Keep up with my social medias, all of them will be here:</p>
+                                                        <p class="mb-4">⚫ Twitter - I don't post much on here but eventually I'll post more <br> ⚫ Twitch - I don't stream much but I would appreciate anyone if they join and chat</p>
+                                                        <a href="https://twitter.com/intent/user?screen_name=kingantics1" target="_blank" class="btn tm-btn-gray">Twitter</a> <a href="https://www.twitch.tv/kingantics" target="_blank" class="btn tm-btn-gray">Twitch</a>
+                                                    </div>                                                
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
+                                                        <img src="" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-      <h1 class="logo"><a href="index.html">KingAntics</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">My Work</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                                 
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">My Work</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <p>If you click on an image below it will take you to another website I have made for myself or someone else</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="p-sm-4 p-2 tm-img-container">
+                                                            <div class="tm-img-slider" id="tmImgSlider">
+                                                              <a href="https://www.kingantics.com/nugget-bot" target="_blank" class="tm-slider-img-link"><img src="img/Nugget-bot-website.png" alt="Image 1" class="img-fluid tm-slider-img"></a>
+                                                              <a href="https://www.kingantics.com/fun" target="_blank" class="tm-slider-img-link"><img src="img/fun-games-website.png" alt="Image 2" class="img-fluid tm-slider-img"></a>
+                                                              <a href="https://www.kingantics.com/schedule" target="_blank" class="tm-slider-img-link"><img src="img/schedule-website.png" alt="Image 3" class="img-fluid tm-slider-img"></a>
+                                                              <a href="https://www.kingantics.com/links" target="_blank" class="tm-slider-img-link"><img src="img/links-website.png" alt="Image 4" class="img-fluid tm-slider-img"></a>
+                                                              <a href="https://www.oshkosh85.com/" target="_blank" class="tm-slider-img-link"><img src="img/oshkosh85-website.png" alt="Image 5" class="img-fluid tm-slider-img"></a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-comments fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Contact</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                              
+                                        <div class="product__description">
+                                            <div class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Contact Us</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4">
+                                                    <div class="col-12">
+                                                        <p>Lorem ipsum dolor site amet, consectetur adipiscing elit. Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor, vel rhoncus libero.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <form action="https://formsubmit.co/business@kingantics.com" method="post" class="contact-form">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6">
+                                                                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                                                </div>
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email">
+                                                                  <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                                                </div>
+                                                            </div>                                                        
+                                                            <div class="form-group">
+                                                              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-primary tm-btn-submit">Submit</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+            <footer>
+                <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2020</span> <a rel="nofollow" href="https://www.twitter.com/kingantics1" class="tm-text-highlight">KingAntics</a> 
+            </footer>
+        </div> <!-- .tm-main-content -->  
     </div>
-  </header><!-- End Header -->
+    <!-- load JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>       
+    <script src="slick/slick.min.js"></script>             
+    <script src="js/anime.min.js"></script>           
+    <script src="js/main2.js"></script>  
+    <script>      
 
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">KingAntics</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Streamer, Gamer, Viewer, Certified DJ, Entrepreneur"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div><!-- End Hero Section -->
+        function setupFooter() {
+            var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
 
-  <main id="main">
+            var main = $('.tm-main-content');
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/bulbasaur.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>KingAntics</span></p>
-                        <p><span class="title-s">Email: </span> <span>business@kingantics.com</span></p>
-                        <p><span class="title-s">Twitch: </span> <span>twitch.tv/kingantics</span></p>
-                        <p><span class="title-s">Twitter: </span> <span>twitter.com/kingantics1</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS</span> <span class="pull-right">70%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>PYTHON</span> <span class="pull-right">60%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">50%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      I am just a random guy who streams to be less bored and talk to other people. I'm always down to have
-                      a good chat with others. I also love pokemon hence the bulbasaur profile picture.
-                    </p>
-                    <p class="lead">
-                      I enjoy coding because its fun looking at all the things you can create with just letters and numbers.
-                      I self taught everything I know because I genuiely enjoy web developing. I started coding 3 years ago.
-                    </p>
-                    <p class="lead">
-                      I would love to design your website for free if you want, just dm me on any social or scroll to the bottom of this website
-                      contact me via the form.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
+            if($(window).height() < pageHeight) {
+                main.addClass('tm-footer-relative');
+            }
+            else {
+                main.removeClass('tm-footer-relative');   
+            }
+        }
 
-    <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-twitter"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="850" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">Twitter Followers</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-twitch"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">Twitch Followers</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-instagram"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">Instagram Followers</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-youtube"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YouTube Subscribers</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Counter Section -->
+        /* DOM is ready
+        ------------------------------------------------*/
+        $(function(){
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Below are some of the websites I have made
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/Nugget-bot-website.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/Nugget-bot-website.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Chicken Nugget Bot</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Discord Bot</span> / <span class="w-date">2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://www.kingantics.com/nugget-bot" target="_blank"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/fun-games-website.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/fun-games-website.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Fun Games</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Games</span> / <span class="w-date">2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://www.kingantics.com/fun" target="_blank"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/schedule-website.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/schedule-website.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Schedule Website</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Schedule (Password is FRIEND)</span> / <span class="w-date">2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://www.kingantics.com/schedule" target="_blank"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/links-website.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/links-website.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Links Website</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Social Links</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://www.kingantics.com/links" target="_blank"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/oshkosh85-website.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/oshkosh85-website.png" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">OshKosh85 Website</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Oshkosh85</span> / <span class="w-date">2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://www.oshkosh85.com" target="_blank"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/plus.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/plus.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Many More To Come</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">More</span> / <span class="w-date">2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="#"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            setupFooter();
 
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
+            $(window).resize(function(){
+                setupFooter();
+            });
 
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+            $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
+        });
 
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Cactus Cow</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "KingAntics is one of the most inspiring and strong people I know. 
-                        He is incredibly intelligent. His streams are always a blast and heaps of fun! 
-                        I am happy to say King is what I call a friend! Thank you King"
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/Anonymous_emblem.svg.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Empty</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Give me a review to be on here
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
-          </div>
-        </div>
-      </div>
-    </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Almost At the End
-              </h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send A Message
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="https://formsubmit.co/business@kingantics.com" method="post">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        You can contact me by dming me on any of my social medias or by contacting me through the form on the left.
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> Earth</li>
-                        <li><span class="bi bi-envelope"></span> business@kingantics.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href="https://www.youtube.com/channel/UC_QeT9rdpBFbvMKlYuF3EGw" target="_blank"><span class="ico-circle"><i class="bi bi-youtube"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/kingantic" target="_blank"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href="https://twitter.com/KingAntics1" target="_blank"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href="https://www.twitch.tv/kingantics" target="_blank"><span class="ico-circle"><i class="bi bi-twitch"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>KingAntics</strong>. All Rights Reserved</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    </script>             
 
 </body>
-
 </html>
